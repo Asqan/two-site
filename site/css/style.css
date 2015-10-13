@@ -1,0 +1,658 @@
+
+
+body {
+    background-color: #b4b2b2;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    background-color: azure;
+    width: 960px;
+    height: 1000px;
+}
+
+#container {
+    margin: 0 auto;
+    width: 100%;
+    height: 30px;
+    background-color: #446c97;
+    border-bottom: 1px solid #d4e9f8;
+}
+
+#first-list li {
+    float: right;
+    padding: 8px;
+    color: #fff;
+    font-size: 11px;
+	-webkit-animation-duration: 2500ms;
+  -webkit-animation-delay: 2000ms;
+  
+}
+
+#menu {
+    background-image: url(../images/tlo-search.jpg);
+    height: 50px;
+    float: left;
+    border-radius: 3px;
+    box-sizing: content-box;
+    width: 960px;
+    border-bottom: 2px solid #6aaaee;
+}
+
+ul {
+    position: relative;
+}
+
+.sticky {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+#menu ul {
+    clear: left;
+    position: relative;
+    list-style-type: none;
+    float: left;
+    padding: 0;
+    margin: 0;
+    left: 30%;
+    text-align: center;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-image: none;
+}
+
+#menu li.highlight {
+    background-color: #eeca44;
+    top: 48px;
+    height: 2px;
+    z-index: 1;
+    position: absolute;
+    overflow: hidden;
+}
+
+#menu li a {
+    box-sizing: content-box;
+    height: 30px;
+    padding-top: 17px;
+    margin: 0 20px;
+    color: #fff;
+    font: normal 12px arial;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+#search {
+    position: relative;
+}
+
+input[type="text"] {
+    float: right;
+    position: absolute;
+    right: 10px;
+    margin-top: -5px;
+    background-color: #084b78;
+    font-family: arial-regular;
+    height: 25px;
+    width: 180px;
+    color: #fff;
+    padding-left: 8px;
+    background-image: url('../images/lupa.jpg');
+    background-position: 95% 50%;
+    background-repeat: no-repeat;
+    border: none;
+    box-shadow: inset 4px 3px 3px #092e69;
+    webkit-transition: all 0.8s ease-in-out 0.1s;
+    transition: all 0.8s ease-in-out 0.1s;
+}
+
+input[type="text"]:hover {
+    background: #fff;
+    color: black;
+}
+
+#logo {
+    position: relative;
+}
+
+#logo .icon-location {
+    font-size: 19px;
+    color: #fff;
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    clear: both;
+}
+
+.log {
+    color: #fff;
+    position: absolute;
+    left: 60px;
+    top: 17px;
+}
+
+article #home {
+    width: 960px;
+    height: 638px;
+    background-image: url(../images/glowne.jpg);
+}
+
+article #home #video {
+    position: relative;
+    top: 180px;
+    left: 340px;
+    opacity: 0.7;
+    height: 50%;
+}
+
+#two-col {
+    width: 960px;
+    height: 100%;
+    overflow: hidden;
+}
+
+#two-col .left {
+    background-image: url(../images/left.jpg);
+    float: left;
+    width: 480px;
+    height: 350px;
+    overflow: hidden;
+}
+
+#two-col .left h2 {
+    color: #fff;
+    position: relative;
+    top: 30px;
+    left: 80px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+}
+
+#two-col .left .pone {
+    width: 150px;
+    text-indent: 1%;
+    position: relative;
+    top: 50px;
+    left: 80px;
+    height: 110px;
+    color: #fff;
+    font-size: 10px;
+    text-indent: 4%;
+}
+
+.left-link {
+    font-size: 10px;
+    color: #bca51d;
+    position: relative;
+    top: 135px;
+    left: 374px;
+}
+.cite{
+margin-left:-30px;}
+
+.citee {
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    left: 280px;
+    top: -122px;
+    bottom: 80px;
+    color: #fff;
+    width: 150px;
+    height: 80px;
+    text-indent: 10%;
+    font-size: 16px;
+    font-family: 'Roboto Condensed Italic', sans-serif;
+    font-size: 18px;
+}
+
+img {
+    position: relative;
+    top: 15px;
+}
+
+#two-col .left .ptwo {
+    position: relative;
+    left: 80px;
+    top: 80px;
+    height: 30px;
+    width: 400px;
+    color: #fff;
+    font-size: 10px;
+    text-indent: 4%;
+    white-space: nowrap;
+}
+
+#two-col .right {
+    float: right;
+    width: 480px;
+    background-color: #092c46;
+    height: 350px;
+}
+
+.right-child-one {
+    float: left;
+    width: 150px;
+    color: #fff;
+    position: relative;
+    left: 15%;
+    padding: 10px;
+}
+
+.right-child-two {
+    float: right;
+    color: #fff;
+    width: 150px;
+    position: relative;
+    right: 15%;
+}
+
+.right-child-one p {
+    text-indent: 10%;
+    text-align: inherit;
+    padding-bottom: 10px;
+    font-family: arial-regular;
+    font-size: 10px;
+}
+
+.right-child-one .right-time {
+    padding-top: 20px;
+    text-indent: 10%;
+    text-align: inherit;
+    padding-bottom: 10px;
+    font-family: arial-regular;
+    font-size: 10px;
+}
+
+.right-child-two p {
+    text-indent: 10%;
+    text-align: inherit;
+    padding-bottom: 10px;
+    font-family: arial-regular;
+    font-size: 10px;
+}
+
+.right-child-two .date {
+    padding-top: 20px;
+    text-indent: 10%;
+    text-align: inherit;
+    padding-bottom: 10px;
+    font-family: arial-regular;
+    font-size: 10px;
+}
+
+.right-child-one a {
+    font-size: 10px;
+    font-family: arial-regular;
+}
+
+.right-child-two a {
+    font-size: 10px;
+    font-family: arial-regular;
+}
+
+.right h2 {
+    font-size: 22px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.right h3.news-two {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    margin-top: 61px;
+}
+
+.right h3.news-one {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+}
+
+time {
+    font-size: 9px;
+    font-family: arial-regular;
+    color: #798893;
+    width: 40px;
+    height: 20px;
+}
+
+#three-war {
+    width: 960px;
+    font-size: 12px;
+    height: 200px;
+    clear: both;
+}
+
+#three-war .one {
+    float: left;
+    width: 320px;
+    height: 200px;
+    background-image: url(../images/warszawa.jpg);
+}
+
+#three-war .two {
+    float: left;
+    width: 320px;
+    height: 200px;
+    background-image: url(../images/mazury.jpg);
+}
+
+#three-war .two .yelloww {
+    background-color: rgba(156, 183, 83, 0.65);
+    width: 320px;
+    height: 200px;
+    color: #fff;
+}
+
+#three-war .two:hover .yelloww {
+    display: none;
+}
+
+.two {
+    -webkit-transition: all 2500ms ease-in-out;
+    transition: all 2500ms ease-in-out;
+}
+
+.two:hover {
+    -webkit-transform: skew(7deg) scale(1.5);
+    -ms-transform: skew(7deg) scale(1.5);
+    transform: skew(7deg) scale(1.5);
+}
+
+#three-war .three {
+    float: left;
+    width: 320px;
+    height: 200px;
+    background-image: url(../images/wroclaw.jpg);
+}
+
+#three-war .four {
+    float: left;
+    width: 320px;
+    height: 200px;
+    background-image: url(../images/skaly.jpg);
+}
+
+#three-war .five {
+    float: left;
+    width: 320px;
+    height: 200px;
+    background-image: url(../images/krakow.jpg);
+}
+
+#three-war .six {
+    float: left;
+    width: 320px;
+    height: 200px;
+    background-image: url(../images/morze.jpg);
+}
+
+#slider {
+    width: 960px;
+    height: 300px;
+    background-image: url(../images/tlo-slider.jpg);
+    overflow: hidden;
+}
+
+div.slide {
+    height: 230px;
+    position: absolute;
+    left: 100px;
+    background-color: #00101c;
+    padding 0 -10px;
+}
+
+.parachute,.bike,.ball,.camp,.ball,.tennis,.swimming {
+    position: relative;
+    top: 5px;
+}
+
+.main {
+    margin-left: 3px;
+    text-align: left;
+    color: #fff;
+    position: relative;
+    top: 20px;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main-text {
+    margin-left: 3px;
+    text-indent: 5%;
+    text-align: left;
+    color: #fff;
+    position: relative;
+    top: 26px;
+    font-size: 10px;
+    font-family: arial-regular;
+}
+
+.big {
+    width: 140px;
+    height: 102px;
+    background-color: rgba(156, 183, 83, 0.65);
+      position: relative;
+    top:-166px;
+    display: table;
+  width: 100%;
+ 
+ 
+    
+}
+.slide .big .fa-plus-circle {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+    
+}
+/*.slide .img:hover .big{display: none;}*/
+.bike{transition: all 0.7s ease-in-out;}
+.bike:hover{transform: rotate3d(360deg) scale(1.9);}
+#maps {
+    width: 960px;
+    height: 350px;
+    background-color: black;
+    position: relative;
+}
+
+.contact {
+    width: 450px;
+    height: 300px;
+    background: black;
+    position: absolute;
+    top: 25px;
+    right: 40px;
+    z-index: 6;
+}
+
+.contact-left {
+    width: 40%;
+    float: left;
+}
+
+.contact-left h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 22px;
+}
+
+.contact-left .text {
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    color: #fff;
+    font-size: 10px;
+    padding-top: 15px;
+    font-family: arial-regular;
+    padding-bottom: 10px;
+}
+
+address {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    color: #fff;
+    font-size: 10px;
+    font-family: arial-regular;
+}
+
+.phone {
+    position: absolute;
+    top: 155px;
+    left: 20px;
+    width: 130px;
+    height: 50px;
+    color: #fff;
+    font-size: 10px;
+    font-family: arial-regular;
+}
+
+.email {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    width: 130px;
+    height: 50px;
+    color: #fff;
+    font-size: 10px;
+    font-family: arial-regular;
+}
+
+.mail {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    width: 130px;
+    height: 50px;
+    color: #bca51d;
+    font-size: 10px;
+    font-family: arial-regular;
+}
+
+#form {
+    width: 40%;
+    float: right;
+    position: relative;
+    top: 50px;
+    right: 20px;
+}
+
+#form .input-contact {
+    position: absolute;
+    top: 23px;
+    right: 20px;
+    background-color: #fff;
+    background-image: none;
+    color: #000;
+    font-family: arial-regular;
+    font-size: 12px;
+    box-shadow: inset 4px 3px 3px #c7c6c0;
+    border-radius: 2px;
+}
+
+input[type="email"] {
+    position: absolute;
+    top: 52px;
+    right: 20px;
+    width: 177px;
+    height: 22px;
+    padding-left: 7px;
+    font-family: arial-regular;
+    font-size: 12px;
+    box-shadow: inset 4px 3px 3px #c7c6c0;
+    border-radius: 2px;
+}
+
+.textarea {
+    position: absolute;
+    top: 85px;
+    right: 20px;
+    width: 178px;
+    padding-left: 6px;
+    padding-top: 7px;
+    font-family: arial-regular;
+    font-size: 12px;
+    box-shadow: inset 4px 3px 3px #c7c6c0;
+    border-radius: 2px;
+}
+
+.button {
+    background-color: #bca51d;
+    width: 150px;
+    height: 35px;
+    border: none;
+    position: absolute;
+    top: 210px;
+    left: 10px;
+	
+}
+
+footer {
+    width: 960px;
+    height: 55px;
+    background-color: #00101c;
+    color: #fff;
+    float: left;
+    position: relative;
+}
+
+footer .polityka {
+    color: #71671c;
+    font-size: 14px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    padding: 0 10px;
+    border-right: 1px solid #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+footer .cookies {
+    color: #71671c;
+    font-size: 14px;
+    position: relative;
+    top: 20px;
+    left: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+footer .copy {
+    color: #fff;
+    position: relative;
+    top: 7px;
+    left: 300px;
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fb {
+    float: right;
+    margin: -35px 50px 0 0;
+}
+
+.twitter {
+    float: right;
+    margin: -17px 4px 0 0;
+}

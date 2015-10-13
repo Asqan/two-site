@@ -1,0 +1,1048 @@
+body {
+	background-color: #b4b2b2;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 1920px;
+	height: 100%;
+}
+
+#container {
+	margin: 0 auto;
+	width: 100%;
+	height: 30px;
+	background-color: #446c97;
+	border-bottom: 1px solid #d4e9f8;
+}
+
+#first-list li {
+	float: right;
+	padding: 8px;
+	color: #fff;
+	font-size: 11px;
+}
+
+#menu {
+	background-image: url(../images/tlo-search.jpg);
+	height: 50px;
+	float: left;
+	border-radius: 3px;
+	box-sizing: content-box;
+	width: 1920px;
+	border-bottom: 2px solid #6aaaee;
+}
+
+ul {
+	position: relative;
+}
+
+.sticky {
+	width: 1920px;
+	position: fixed;
+	top: 0;
+	left: auto;
+	right: auto;
+	z-index: 10;
+}
+
+#menu ul {
+	clear: left;
+	position: relative;
+	list-style-type: none;
+	float: left;
+	padding: 0;
+	margin: 0;
+	left: 30%;
+	text-align: center;
+}
+
+#menu li {
+	float: left;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background-image: none;
+}
+
+#menu li.highlight {
+	background-color: #eeca44;
+	top: 48px;
+	height: 2px;
+	z-index: 1;
+	position: absolute;
+	overflow: hidden;
+}
+
+#menu li a {
+	box-sizing: content-box;
+	height: 30px;
+	padding-top: 17px;
+	margin: 0 20px;
+	color: #fff;
+	font: normal 12px arial;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	display: block;
+	position: relative;
+	z-index: 2;
+}
+
+#search {
+	position: relative;
+}
+
+input[type="text"] {
+	float: right;
+	position: absolute;
+	right: 10px;
+	margin-top: -5px;
+	background-color: #084b78;
+	font-family: arial-regular;
+	height: 25px;
+	width: 180px;
+	color: #fff;
+	padding-left: 8px;
+	background-image: url('../images/lupa.jpg');
+	background-position: 95% 50%;
+	background-repeat: no-repeat;
+	border: none;
+	box-shadow: inset 4px 3px 3px #092e69;
+	webkit-transition: all 0.8s ease-in-out 0.1s;
+	-webkit-transition: all 0.8s ease-in-out 0.1s;
+	transition: all 0.8s ease-in-out 0.1s;
+}
+
+input[type="text"]:hover {
+	background: #fff;
+	color: black;
+}
+
+#logo {
+	position: relative;
+}
+
+#logo .icon-location {
+	font-size: 19px;
+	color: #fff;
+	position: absolute;
+	left: 30px;
+	top: 15px;
+	clear: both;
+}
+
+.log {
+	color: #fff;
+	position: absolute;
+	left: 60px;
+	top: 17px;
+}
+
+article #center-img {
+	width: 100%;
+	height: 383px;
+	background-image: url(../images/plaza.jpg);
+	overflow: hidden;
+}
+
+#places {
+	width: 1920px;
+	background-color: #fff;
+	
+}
+
+#places .place,
+.center,
+.center-two,
+.right {
+	display: inline-block;
+	color: #000;
+	line-height: 70px;
+	padding-right: 60px;
+	padding-left: 180px;
+}
+
+#places .center,
+.center-two,
+.right {
+	font-size: 14px;
+	font-family: arial-regular;
+}
+
+.place {
+	font-size: 36px;
+	font-weight: bold;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#first-box {
+	margin-right: -600px;
+	height: 280px;
+	background-color: #e1e3e6;
+	position: relative;
+	width: 1920px;
+	margin: 0 auto;
+}
+
+#first-box img {
+	margin: 20px 20px 20px 181px;
+}
+
+#first-box .left-box-main-text h3 {
+	position: absolute;
+	left: 530px;
+	top: 17px;
+	font-size: 36px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.left-box-main-text h5 {
+	position: absolute;
+	left: 530px;
+	top: 55px;
+	font-size: 24px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #a3b1bc;
+}
+
+.icon {
+	position: absolute;
+	display: inline;
+	left: 530px;
+	top: 90px;
+	color: #bca51d;
+}
+
+.left-box-main-text p {
+	position: absolute;
+	left: 530px;
+	top: 120px;
+	text-indent: 5%;
+	font-size: 14px;
+	font-family: arial-regular;
+	width: 500px;
+}
+
+.left-box-main-text .two-text {
+	position: absolute;
+	left: 530px;
+	top: 160px;
+	text-indent: 5%;
+	color: #000;
+	font-size: 14px;
+	font-family: arial-regular;
+	width: 500px;
+	text-align: left;
+	padding-top:10px;
+}
+.details{
+font-size: 14px;
+font-family: arial-regular;
+color:#cdc07e;
+position: absolute;
+left:1000px;
+top:200px;}
+
+#first-box ul.icons {
+	border-left: 1px solid #a1a3a5;
+	display: block;
+	width: 200px;
+	position: absolute;
+	left: 1270px;
+	top: 17px;
+}
+
+#first-box li {
+	padding: 0 0 20px 10px;
+}
+
+#first-box .price-box {
+	border-left: 1px solid #a1a3a5;
+	position: absolute;
+	left: 1600px;
+	top: 17px;
+	height: 200px;
+}
+
+.price-box h4 {
+	font-size: 24px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #c6b448;
+	position: absolute;
+	left: 10px;
+	top: -2px;
+}
+
+.price-box .rating {
+	color: #a3b1bc;
+	font-size: 14px;
+	font-family: arial-regular;
+	padding: 28px 0 10px 11px;
+}
+
+.price-box strike {
+	color: #b2bdc7;
+	font-size: 24px;
+	font-family: arial-regular;
+	padding: 22px 0 10px 11px;
+}
+
+.price-box .price {
+	font-size: 36px;
+	color: #000;
+	padding: 22px 0 10px 10px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.price-box .per-night {
+	color: #000;
+	font-size: 14px;
+	font-family: arial-regular;
+	padding: 6px 0 10px 7px;
+}
+.price-box button{
+	margin: 6px 0 10px 7px;
+	font-family: arial;
+	font-weight: bold;
+	font-size:14px;
+	width: 167px;
+	height: 35px;
+	background-color: #bca51d;
+	border: none;
+	color: #fff;
+}
+#other-box {
+	height: 280px;
+	background-color: #f6f7f8;
+	position: relative;
+	width: 1920px;
+	margin: 0 auto;
+}
+
+#other-box img {
+	margin: 20px 20px 20px 181px;
+}
+
+#other-box .left-box-main-text h3 {
+	position: absolute;
+	left: 530px;
+	top: 17px;
+	font-size: 36px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.left-box-main-text h5 {
+	position: absolute;
+	left: 530px;
+	top: 55px;
+	font-size: 24px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #a3b1bc;
+}
+
+.icon {
+	position: absolute;
+	display: inline-block;
+	left: 530px;
+	top: 90px;
+	color: #bca51d;
+}
+
+.left-box-main-text p {
+	position: absolute;
+	left: 530px;
+	top: 120px;
+	text-indent: 5%;
+	font-size: 14px;
+	font-family: arial-regular;
+	width: 500px;
+}
+
+
+.details{
+font-size: 14px;
+font-family: arial-regular;
+color:#cdc07e;
+position: absolute;
+left:1000px;
+top:200px;}
+
+#other-box ul.icons {
+	border-left: 1px solid #a1a3a5;
+	display: block;
+	width: 200px;
+	position: absolute;
+	left: 1270px;
+	top: 17px;
+}
+
+#other-box li {
+	padding: 0 0 20px 10px;
+}
+
+#other-box .price-box {
+	border-left: 1px solid #a1a3a5;
+	position: absolute;
+	left: 1600px;
+	top: 17px;
+}
+
+.price-box h4 {
+	font-size: 24px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #c6b448;
+	position: absolute;
+	left: 10px;
+	top: -2px;
+}
+
+.price-box .rating {
+	color: #a3b1bc;
+	font-size: 14px;
+	font-family: arial-regular;
+	padding: 28px 0 10px 11px;
+}
+
+.price-box strike {
+	color: #b2bdc7;
+	font-size: 24px;
+	font-family: arial-regular;
+	padding: 22px 0 10px 11px;
+}
+
+.price-box .price {
+	font-size: 36px;
+	color: #000;
+	padding: 22px 0 10px 10px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.price-box .per-night {
+	color: #000;
+	font-size: 14px;
+	font-family: arial-regular;
+	padding: 10px 0 10px 13px;
+}
+.price-box button{
+	margin: 10px 0 10px 13px;
+	font-family: arial;
+	font-weight: bold;
+	font-size:14px;
+	width: 167px;
+	height: 40px;
+	background-color: #bca51d;
+	border: none;
+	color: #fff;
+}
+#third-box {
+	height: 280px;
+	background-color: #e1e3e6;
+	position: relative;
+	width: 1920px;
+	margin: 0 auto;
+}
+
+#third-box img {
+	margin: 20px 20px 20px 181px;
+}
+
+#third-box .left-box-main-text h3 {
+	position: absolute;
+	left: 530px;
+	top: 17px;
+	font-size: 36px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.left-box-main-text h5 {
+	position: absolute;
+	left: 530px;
+	top: 55px;
+	font-size: 24px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #a3b1bc;
+}
+
+.icon {
+	position: absolute;
+	display: inline;
+	left: 530px;
+	top: 90px;
+	color: #bca51d;
+	padding
+}
+
+.left-box-main-text p {
+	position: absolute;
+	left: 530px;
+	top: 120px;
+	text-indent: 5%;
+	font-size: 14px;
+	font-family: arial-regular;
+	width: 500px;
+}
+
+
+.details{
+font-size: 14px;
+font-family: arial-regular;
+color:#cdc07e;
+position: absolute;
+left:1000px;
+top:200px;}
+
+#third-box ul.icons {
+	border-left: 1px solid #a1a3a5;
+	display: block;
+	width: 200px;
+	position: absolute;
+	left: 1270px;
+	top: 14px;
+	height: 220px;
+}
+
+#third-box li {
+	padding: 0 0 20px 10px;
+}
+
+#third-box .price-box {
+	border-left: 1px solid #a1a3a5;
+	position: absolute;
+	left: 1600px;
+	top: 17px;
+	height: 220px;
+}
+
+.price-box h4 {
+	font-size: 24px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #c6b448;
+	position: absolute;
+	left: 10px;
+	top: -2px;
+}
+
+.price-box .rating {
+	color: #a3b1bc;
+	font-size: 14px;
+	font-family: arial-regular;
+	padding: 28px 0 10px 11px;
+}
+
+.price-box strike {
+	color: #b2bdc7;
+	font-size: 24px;
+	font-family: arial-regular;
+	padding: 22px 0 10px 11px;
+}
+
+.price-box .price {
+	font-size: 36px;
+	color: #000;
+	padding: 22px 0 10px 10px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.price-box .per-night {
+	color: #000;
+	font-size: 14px;
+	font-family: arial-regular;
+	padding: 6px 0 10px 7px;
+}
+.price-box button{
+	margin: 6px 0 10px 7px;
+	font-family: arial;
+	font-weight: bold;
+	font-size:14px;
+	width: 167px;
+	height: 35px;
+	background-color: #bca51d;
+	border: none;
+	color: #fff;
+}
+#fourth-box {
+	height: 280px;
+	background-color: #f6f7f8;
+	position: relative;
+	width: 1920px;
+	margin: 0 auto;
+}
+
+#fourth-box img {
+	margin: 20px 20px 20px 181px;
+}
+#fourth-box .park{
+margin: 0;
+}
+
+
+#fourth-box .left-box-main-text h3 {
+	position: absolute;
+	left: 530px;
+	top: 17px;
+	font-size: 36px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.left-box-main-text h5 {
+	position: absolute;
+	left: 530px;
+	top: 55px;
+	font-size: 24px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #a3b1bc;
+}
+
+.icon {
+	position: absolute;
+	display: inline;
+	left: 530px;
+	top: 90px;
+	color: #bca51d;
+}
+
+.left-box-main-text p {
+	position: absolute;
+	left: 530px;
+	top: 120px;
+	text-indent: 5%;
+	font-size: 14px;
+	font-family: arial-regular;
+	width: 500px;
+}
+
+.left-box-main-text .two-text {
+	position: absolute;
+	left: 530px;
+	top: 160px;
+	text-indent: 5%;
+	color: #000;
+	font-size: 14px;
+	font-family: arial-regular;
+	width: 500px;
+	text-align: left;
+	padding-top:10px;
+}
+.details{
+font-size: 14px;
+font-family: arial-regular;
+color:#cdc07e;
+position: absolute;
+left:1000px;
+top:200px;}
+
+#fourth-box ul.icons {
+	border-left: 1px solid #a1a3a5;
+	display: block;
+	width: 200px;
+	position: absolute;
+	left: 1270px;
+	top: 17px;
+	height: 220px;
+}
+
+#fourth-box li {
+	padding: 0 0 20px 10px;
+}
+
+#fourth-box .price-box {
+	border-left: 1px solid #a1a3a5;
+	position: absolute;
+	left: 1600px;
+	top: 17px;
+	height: 220px;
+}
+
+.price-box h4 {
+	font-size: 24px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #c6b448;
+	position: absolute;
+	left: 10px;
+	top: -2px;
+}
+
+.price-box .rating {
+	color: #a3b1bc;
+	font-size: 14px;
+	font-family: arial-regular;
+	padding: 28px 0 10px 11px;
+}
+
+.price-box strike {
+	color: #b2bdc7;
+	font-size: 24px;
+	font-family: arial-regular;
+	padding: 22px 0 10px 11px;
+}
+
+.price-box .price {
+	font-size: 36px;
+	color: #000;
+	padding: 22px 0 10px 10px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.price-box .per-night {
+	color: #000;
+	font-size: 14px;
+	font-family: arial-regular;
+	padding: 6px 0 10px 7px;
+}
+.price-box button{
+	margin: 6px 0 10px 7px;
+	font-family: arial;
+	font-weight: bold;
+	font-size:14px;
+	width: 167px;
+	height: 35px;
+	background-color: #bca51d;
+	border: none;
+	color: #fff;
+}
+#fifth-box {
+	height: 280px;
+	background-color: #e1e3e6;
+	position: relative;
+	width: 1920px;
+	margin: 0 auto;
+}
+
+#fifth-box img {
+	margin: 20px 20px 20px 181px;
+}
+
+#fifth-box .left-box-main-text h3 {
+	position: absolute;
+	left: 530px;
+	top: 17px;
+	font-size: 36px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.left-box-main-text h5 {
+	position: absolute;
+	left: 530px;
+	top: 55px;
+	font-size: 24px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #a3b1bc;
+}
+
+
+
+.left-box-main-text p {
+	position: absolute;
+	left: 530px;
+	top: 120px;
+	text-indent: 5%;
+	font-size: 14px;
+	font-family: arial-regular;
+	width: 500px;
+}
+
+
+.details{
+font-size: 14px;
+font-family: arial-regular;
+color:#cdc07e;
+position: absolute;
+left:1000px;
+top:200px;}
+
+#fifth-box ul.icons {
+	border-left: 1px solid #a1a3a5;
+	display: block;
+	width: 200px;
+	position: absolute;
+	left: 1270px;
+	top: 17px;
+	height: 220px;
+}
+#fifth-box .park{
+margin: 0;
+}
+
+#fifth-box li {
+	padding: 0 0 20px 10px;
+}
+
+#fifth-box .price-box {
+	border-left: 1px solid #a1a3a5;
+	position: absolute;
+	left: 1600px;
+	top: 15px;
+	height: 220px;
+}
+
+.price-box h4 {
+	font-size: 24px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #c6b448;
+	position: absolute;
+	left: 10px;
+	top: -2px;
+}
+
+.price-box .rating {
+	color: #a3b1bc;
+	font-size: 14px;
+	font-family: arial-regular;
+	padding: 28px 0 10px 11px;
+}
+
+
+.price-box .price {
+	font-size: 36px;
+	color: #000;
+	padding: 22px 0 10px 10px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.price-box .per-night {
+	color: #000;
+	font-size: 14px;
+	font-family: arial-regular;
+	padding: 6px 0 10px 7px;
+}
+.price-box button{
+	margin: 6px 0 10px 7px;
+	font-family: arial;
+	font-weight: bold;
+	font-size:14px;
+	width: 167px;
+	height: 35px;
+	background-color: #bca51d;
+	border: none;
+	color: #fff;
+}
+#sixth-box {
+	height: 280px;
+	background-color: #f6f7f8;
+	position: relative;
+	width: 1920px;
+	margin: 0 auto;
+}
+
+#sixth-box img {
+	margin: 20px 20px 20px 181px;
+}
+
+#sixth-box .left-box-main-text h3 {
+	position: absolute;
+	left: 530px;
+	top: 17px;
+	font-size: 36px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.left-box-main-text h5 {
+	position: absolute;
+	left: 530px;
+	top: 55px;
+	font-size: 24px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #a3b1bc;
+}
+
+.icon {
+	position: absolute;
+	display: inline;
+	left: 530px;
+	top: 90px;
+	color: #bca51d;
+}
+
+.left-box-main-text p {
+	position: absolute;
+	left: 530px;
+	top: 120px;
+	text-indent: 5%;
+	font-size: 14px;
+	font-family: arial-regular;
+	width: 500px;
+}
+
+
+.details{
+font-size: 14px;
+font-family: arial-regular;
+color:#cdc07e;
+position: absolute;
+left:1000px;
+top:200px;}
+
+#sixth-box ul.icons {
+	border-left: 1px solid #a1a3a5;
+	display: block;
+	width: 200px;
+	position: absolute;
+	left: 1270px;
+	top: 17px;
+	height: 220px;
+}
+
+
+#sixth-box li {
+	padding: 0 0 20px 10px;
+}
+
+#sixth-box .price-box {
+	border-left: 1px solid #a1a3a5;
+	position: absolute;
+	left: 1600px;
+	top: 15px;
+	height: 220px;
+}
+
+.price-box h4 {
+	font-size: 24px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #c6b448;
+	position: absolute;
+	left: 10px;
+	top: -2px;
+}
+
+.price-box .rating {
+	color: #a3b1bc;
+	font-size: 14px;
+	font-family: arial-regular;
+	padding: 28px 0 10px 11px;
+}
+
+.price-box strike {
+	color: #b2bdc7;
+	font-size: 24px;
+	font-family: arial-regular;
+	padding: 22px 0 10px 11px;
+}
+
+.price-box .price {
+	font-size: 36px;
+	color: #000;
+	padding: 22px 0 10px 10px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.price-box .per-night {
+	color: #000;
+	font-size: 14px;
+	font-family: arial-regular;
+	padding: 6px 0 10px 7px;
+}
+.price-box button{
+	margin: 6px 0 10px 7px;
+	font-family: arial;
+	font-weight: bold;
+	font-size:14px;
+	width: 167px;
+	height: 35px;
+	background-color: #bca51d;
+	border: none;
+	color: #fff;
+}
+.pagination{
+	background-color:#427ca2;
+	display: block;
+	width: 1920px;
+	margin: 0 auto;
+}
+.pagination ul{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 16px;
+}
+.pagination li{
+    list-style-type: none;
+    display: inline;
+    padding-bottom: 1px;
+}
+.pagination a, .pagination a:visited{
+    padding: 0 5px;
+   
+    text-decoration: none;
+    color: #2e6ab1;
+}
+.pagination a:hover, .pagination a:active{
+    
+    color: #000;
+    background-color: rgba(150, 150, 144, 0);
+}
+.pagination a.prev{
+    font-weight: bold;
+	margin:0 100px 0 600px;
+	color:#fff;
+}
+.pagination a.next{
+    font-weight: bold;
+	margin: 0 0 0 100px;
+	color:#fff;
+}
+.page_number {
+    
+    color: whitesmoke;
+    padding:5px;
+    text-align: center;
+    width: 20px;
+	display: inline-block;
+}
+
+footer {
+	width: 50%;
+	margin:0 auto;
+    width: 1920px;
+    height: 55px;
+    background-color: #00101c;
+    color: #fff;
+    position: relative;
+}
+
+footer .polityka {
+    color: #71671c;
+    font-size: 14px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    padding: 0 10px;
+    border-right: 1px solid #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+footer .cookies {
+    color: #71671c;
+    font-size: 14px;
+    position: relative;
+    top: 20px;
+    left: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+footer .copy {
+    color: #fff;
+    position: relative;
+    top: 7px;
+    left: 300px;
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+.fb {
+    float: right;
+    margin: -15px 50px 0 0;
+}
+
+.twitter {
+    float: right;
+    margin: -7px 4px 0 0;
+} 
+
+@media screen and (max-width: 320px){
+	#container{
+	background-color: aquamarine;}}
