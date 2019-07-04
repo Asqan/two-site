@@ -1,9 +1,7 @@
-
-
 body {
     background-color: #b4b2b2;
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 #wrapper {
@@ -26,9 +24,9 @@ body {
     padding: 8px;
     color: #fff;
     font-size: 11px;
-	-webkit-animation-duration: 2500ms;
-  -webkit-animation-delay: 2000ms;
-  
+    -webkit-animation-duration: 2500ms;
+    -webkit-animation-delay: 2000ms;
+
 }
 
 #menu {
@@ -200,8 +198,10 @@ article #home #video {
     top: 135px;
     left: 374px;
 }
-.cite{
-margin-left:-30px;}
+
+.cite {
+    margin-left: -30px;
+}
 
 .citee {
     font-family: 'Lato', sans-serif;
@@ -415,7 +415,13 @@ div.slide {
     padding 0 -10px;
 }
 
-.parachute,.bike,.ball,.camp,.ball,.tennis,.swimming {
+.parachute,
+.bike,
+.ball,
+.camp,
+.ball,
+.tennis,
+.swimming {
     position: relative;
     top: 5px;
 }
@@ -445,23 +451,31 @@ div.slide {
     width: 140px;
     height: 102px;
     background-color: rgba(156, 183, 83, 0.65);
-      position: relative;
-    top:-166px;
+    position: relative;
+    top: -166px;
     display: table;
-  width: 100%;
- 
- 
-    
+    width: 100%;
+
+
+
 }
+
 .slide .big .fa-plus-circle {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-    
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+
 }
+
 /*.slide .img:hover .big{display: none;}*/
-.bike{transition: all 0.7s ease-in-out;}
-.bike:hover{transform: rotate3d(360deg) scale(1.9);}
+.bike {
+    transition: all 0.7s ease-in-out;
+}
+
+.bike:hover {
+    transform: rotate3d(360deg) scale(1.9);
+}
+
 #maps {
     width: 960px;
     height: 350px;
@@ -606,7 +620,7 @@ input[type="email"] {
     position: absolute;
     top: 210px;
     left: 10px;
-	
+
 }
 
 footer {
